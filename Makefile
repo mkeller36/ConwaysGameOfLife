@@ -1,5 +1,8 @@
 CC=gcc
 CFLAGS=-I.
 
-ConwaysGameOfLife: ConwaysGameOfLife.o 
-	$(CC) -o ConwaysGameOfLife ConwaysGameOfLife.o
+life: life.o 
+	$(CC) -o life life.o
+
+clean:
+	rm *.o 
